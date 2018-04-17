@@ -1,10 +1,11 @@
 
 
 #teoMWI library
-add_subdirectory(./teoMWI)
+#add_subdirectory(./teoMWI)
 
 #fcontrol
-add_subdirectory(./fcontrol)
+#add_subdirectory(./fcontrol)
+add_subdirectory(./CiA402Device)
 
 add_subdirectory(./plot)
 #add_subdirectory(./mathgl)

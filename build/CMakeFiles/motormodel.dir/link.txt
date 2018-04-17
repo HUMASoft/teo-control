@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/motormodel.dir/src/motormodel.cpp.o  -o motormodel -Wl,-rpath,/home/humanoids/repos/teo-control/build/lib/plot lib/CiA402Device/libCiA402Device.a lib/plot/libiplot.so -lplotter 

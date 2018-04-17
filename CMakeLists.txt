@@ -11,7 +11,7 @@ endfunction()
 add_definitions(-std=c++0x -DYARP_NO_DEPRECATED_WARNINGS=ON)
 
 ##project code
-project(teofpid)
+project(teof-control)
 
 cmake_minimum_required(VERSION 2.8)
 

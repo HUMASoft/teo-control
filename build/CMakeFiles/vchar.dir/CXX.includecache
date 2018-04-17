@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../lib/plot/IPlot.h
+vector
+-
+plotter.h
+-
+plot.h
+-
+fstream
+-
+algorithm
+-
+iostream
+-
+
+/home/humanoids/repos/teo-control/src/vchar.cpp
+IPlot.h
+/home/humanoids/repos/teo-control/src/IPlot.h
+

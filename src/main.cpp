@@ -3,6 +3,7 @@
 #include <time.h>
 #include <fstream>      // std::fstream
 #include "DeviceChain.h"
+#include "Cia402device.h"
 
 #include <chrono>
 //#include <ctime>
@@ -27,14 +28,36 @@ bool useRobot = true;
 
 int main()
 {
-    vector <double> homepos(6,0);
-    DeviceChain rightArm("can0");
-    rightArm.SetPositions(homepos);
+
+    SocketCanPort port("can0");
+    CiA402Device joint(18,&port);
+
+    //joint.StartNode();
+    sleep(1);
+    joint.SwitchOn();
+    sleep(1);
+
+    cout << "initial pos: " << joint.GetPosition() << endl;
+    //joint.SetupPositionMode(1,1);
+    //joint.SetPosition(5);
+
+    sleep(1);
+
+    cout  << "final pos: " << joint.GetPosition() << endl;
 
 
-    sleep(2);
-    homepos[3]=5;
-    sleep(2);
+
+
+    //    vector <double> homepos(6,0);
+//    vector<long> ids={15,16,17,18,19,20};
+//    DeviceChain rightArm("can0",ids);
+//    rightArm.SetPositions(homepos);
+
+
+//    sleep(2);
+//    homepos[3]=5;
+//    rightArm.SetPositions(homepos);
+//    sleep(2);
 
     /*if (useRobot)
     {

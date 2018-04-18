@@ -2,9 +2,9 @@
 #include<iostream>
 #include <time.h>
 #include <fstream>      // std::fstream
-#include "Limb.h"
+#include "DeviceChain.h"
 
-//#include <chrono>
+#include <chrono>
 //#include <ctime>
 
 //#include "MiddlewareInterface.h"
@@ -27,8 +27,14 @@ bool useRobot = true;
 
 int main()
 {
+    vector <double> homepos(6,0);
+    DeviceChain rightArm("can0");
+    rightArm.SetPositions(homepos);
 
-    Limb rightLeg("can0");
+
+    sleep(2);
+    homepos[3]=5;
+    sleep(2);
 
     /*if (useRobot)
     {
@@ -50,7 +56,7 @@ int main()
 
     }
     */
-    vector <double> homepos(6,0);
+
     //rightLeg.SetupPositionMode(1, 1);
     //setPositionsrightLeg.SetPositions(homepos);
     double Ts = 0.01;

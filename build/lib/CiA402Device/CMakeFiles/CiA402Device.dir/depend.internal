@@ -22,6 +22,15 @@ lib/CiA402Device/CMakeFiles/CiA402Device.dir/Cia402device.cpp.o
  /home/humanoids/repos/teo-control/lib/CiA402Device/ObjectDictionary.h
  /home/humanoids/repos/teo-control/lib/CiA402Device/PortBase.h
  /home/humanoids/repos/teo-control/lib/CiA402Device/candatatypes.h
+lib/CiA402Device/CMakeFiles/CiA402Device.dir/DeviceChain.cpp.o
+ /home/humanoids/repos/teo-control/lib/CiA402Device/CiA301CommPort.h
+ /home/humanoids/repos/teo-control/lib/CiA402Device/Cia402device.h
+ /home/humanoids/repos/teo-control/lib/CiA402Device/DeviceChain.cpp
+ /home/humanoids/repos/teo-control/lib/CiA402Device/DeviceChain.h
+ /home/humanoids/repos/teo-control/lib/CiA402Device/ObjectDictionary.h
+ /home/humanoids/repos/teo-control/lib/CiA402Device/PortBase.h
+ /home/humanoids/repos/teo-control/lib/CiA402Device/SocketCanPort.h
+ /home/humanoids/repos/teo-control/lib/CiA402Device/candatatypes.h
 lib/CiA402Device/CMakeFiles/CiA402Device.dir/PortBase.cpp.o
  /home/humanoids/repos/teo-control/lib/CiA402Device/PortBase.cpp
  /home/humanoids/repos/teo-control/lib/CiA402Device/PortBase.h

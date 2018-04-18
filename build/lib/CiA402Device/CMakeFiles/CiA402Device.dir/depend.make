@@ -22,6 +22,15 @@ lib/CiA402Device/CMakeFiles/CiA402Device.dir/Cia402device.cpp.o: ../lib/CiA402De
 lib/CiA402Device/CMakeFiles/CiA402Device.dir/Cia402device.cpp.o: ../lib/CiA402Device/PortBase.h
 lib/CiA402Device/CMakeFiles/CiA402Device.dir/Cia402device.cpp.o: ../lib/CiA402Device/candatatypes.h
 
+lib/CiA402Device/CMakeFiles/CiA402Device.dir/DeviceChain.cpp.o: ../lib/CiA402Device/CiA301CommPort.h
+lib/CiA402Device/CMakeFiles/CiA402Device.dir/DeviceChain.cpp.o: ../lib/CiA402Device/Cia402device.h
+lib/CiA402Device/CMakeFiles/CiA402Device.dir/DeviceChain.cpp.o: ../lib/CiA402Device/DeviceChain.cpp
+lib/CiA402Device/CMakeFiles/CiA402Device.dir/DeviceChain.cpp.o: ../lib/CiA402Device/DeviceChain.h
+lib/CiA402Device/CMakeFiles/CiA402Device.dir/DeviceChain.cpp.o: ../lib/CiA402Device/ObjectDictionary.h
+lib/CiA402Device/CMakeFiles/CiA402Device.dir/DeviceChain.cpp.o: ../lib/CiA402Device/PortBase.h
+lib/CiA402Device/CMakeFiles/CiA402Device.dir/DeviceChain.cpp.o: ../lib/CiA402Device/SocketCanPort.h
+lib/CiA402Device/CMakeFiles/CiA402Device.dir/DeviceChain.cpp.o: ../lib/CiA402Device/candatatypes.h
+
 lib/CiA402Device/CMakeFiles/CiA402Device.dir/PortBase.cpp.o: ../lib/CiA402Device/PortBase.cpp
 lib/CiA402Device/CMakeFiles/CiA402Device.dir/PortBase.cpp.o: ../lib/CiA402Device/PortBase.h
 

@@ -91,60 +91,6 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/humanoids/repos/teo-control/build/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="Limb">
-				<Option output="/home/humanoids/repos/teo-control/build/Limb" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/humanoids/repos/teo-control/build"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add option="-DYARP_NO_DEPRECATED_WARNINGS=ON"/>
-					<Add directory="/home/humanoids/repos/teo-control/lib/CiA402Device"/>
-					<Add directory="/home/humanoids/repos/teo-control/lib/plot"/>
-					<Add directory="/home/humanoids/repos/teo-control/lib"/>
-					<Add directory="/usr/include/c++/4.8"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.8"/>
-					<Add directory="/usr/include/c++/4.8/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/humanoids/repos/teo-control/build/Makefile&quot;  VERBOSE=1 Limb"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/humanoids/repos/teo-control/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/humanoids/repos/teo-control/build/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/humanoids/repos/teo-control/build/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="Limb/fast">
-				<Option output="/home/humanoids/repos/teo-control/build/Limb" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/humanoids/repos/teo-control/build"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add option="-DYARP_NO_DEPRECATED_WARNINGS=ON"/>
-					<Add directory="/home/humanoids/repos/teo-control/lib/CiA402Device"/>
-					<Add directory="/home/humanoids/repos/teo-control/lib/plot"/>
-					<Add directory="/home/humanoids/repos/teo-control/lib"/>
-					<Add directory="/usr/include/c++/4.8"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.8"/>
-					<Add directory="/usr/include/c++/4.8/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/humanoids/repos/teo-control/build/Makefile&quot;  VERBOSE=1 Limb/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/humanoids/repos/teo-control/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/humanoids/repos/teo-control/build/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/humanoids/repos/teo-control/build/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
 			<Target title="CiA402Device">
 				<Option output="/home/humanoids/repos/teo-control/build/lib/CiA402Device/libCiA402Device.a" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/humanoids/repos/teo-control/build/lib/CiA402Device"/>
@@ -268,6 +214,12 @@
 		<Unit filename="/home/humanoids/repos/teo-control/lib/CiA402Device/Cia402device.h">
 			<Option target="CiA402Device"/>
 		</Unit>
+		<Unit filename="/home/humanoids/repos/teo-control/lib/CiA402Device/DeviceChain.cpp">
+			<Option target="CiA402Device"/>
+		</Unit>
+		<Unit filename="/home/humanoids/repos/teo-control/lib/CiA402Device/DeviceChain.h">
+			<Option target="CiA402Device"/>
+		</Unit>
 		<Unit filename="/home/humanoids/repos/teo-control/lib/CiA402Device/ObjectDictionary.h">
 			<Option target="CiA402Device"/>
 		</Unit>
@@ -303,12 +255,6 @@
 		</Unit>
 		<Unit filename="/home/humanoids/repos/teo-control/lib/plot/IPlot.h">
 			<Option target="iplot"/>
-		</Unit>
-		<Unit filename="/home/humanoids/repos/teo-control/src/Limb.cpp">
-			<Option target="Limb"/>
-		</Unit>
-		<Unit filename="/home/humanoids/repos/teo-control/src/Limb.h">
-			<Option target="Limb"/>
 		</Unit>
 		<Unit filename="/home/humanoids/repos/teo-control/src/main.cpp">
 			<Option target="main"/>

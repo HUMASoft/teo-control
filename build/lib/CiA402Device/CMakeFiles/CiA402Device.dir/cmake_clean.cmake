@@ -3,6 +3,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/CiA402Device.dir/CiA301CommPort.cpp.o"
   "CMakeFiles/CiA402Device.dir/CiA402DeviceICanbus.cpp.o"
   "CMakeFiles/CiA402Device.dir/Cia402device.cpp.o"
+  "CMakeFiles/CiA402Device.dir/DeviceChain.cpp.o"
   "CMakeFiles/CiA402Device.dir/PortBase.cpp.o"
   "CMakeFiles/CiA402Device.dir/SocketCanPort.cpp.o"
   "CMakeFiles/CiA402Device.dir/TestPort.cpp.o"

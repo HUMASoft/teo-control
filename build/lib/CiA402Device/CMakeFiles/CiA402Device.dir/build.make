@@ -153,9 +153,33 @@ lib/CiA402Device/CMakeFiles/CiA402Device.dir/Cia402device.cpp.o.provides: lib/Ci
 lib/CiA402Device/CMakeFiles/CiA402Device.dir/Cia402device.cpp.o.provides.build: lib/CiA402Device/CMakeFiles/CiA402Device.dir/Cia402device.cpp.o
 
 
+lib/CiA402Device/CMakeFiles/CiA402Device.dir/DeviceChain.cpp.o: lib/CiA402Device/CMakeFiles/CiA402Device.dir/flags.make
+lib/CiA402Device/CMakeFiles/CiA402Device.dir/DeviceChain.cpp.o: ../lib/CiA402Device/DeviceChain.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/humanoids/repos/teo-control/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object lib/CiA402Device/CMakeFiles/CiA402Device.dir/DeviceChain.cpp.o"
+	cd /home/humanoids/repos/teo-control/build/lib/CiA402Device && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CiA402Device.dir/DeviceChain.cpp.o -c /home/humanoids/repos/teo-control/lib/CiA402Device/DeviceChain.cpp
+
+lib/CiA402Device/CMakeFiles/CiA402Device.dir/DeviceChain.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CiA402Device.dir/DeviceChain.cpp.i"
+	cd /home/humanoids/repos/teo-control/build/lib/CiA402Device && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/humanoids/repos/teo-control/lib/CiA402Device/DeviceChain.cpp > CMakeFiles/CiA402Device.dir/DeviceChain.cpp.i
+
+lib/CiA402Device/CMakeFiles/CiA402Device.dir/DeviceChain.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CiA402Device.dir/DeviceChain.cpp.s"
+	cd /home/humanoids/repos/teo-control/build/lib/CiA402Device && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/humanoids/repos/teo-control/lib/CiA402Device/DeviceChain.cpp -o CMakeFiles/CiA402Device.dir/DeviceChain.cpp.s
+
+lib/CiA402Device/CMakeFiles/CiA402Device.dir/DeviceChain.cpp.o.requires:
+
+.PHONY : lib/CiA402Device/CMakeFiles/CiA402Device.dir/DeviceChain.cpp.o.requires
+
+lib/CiA402Device/CMakeFiles/CiA402Device.dir/DeviceChain.cpp.o.provides: lib/CiA402Device/CMakeFiles/CiA402Device.dir/DeviceChain.cpp.o.requires
+	$(MAKE) -f lib/CiA402Device/CMakeFiles/CiA402Device.dir/build.make lib/CiA402Device/CMakeFiles/CiA402Device.dir/DeviceChain.cpp.o.provides.build
+.PHONY : lib/CiA402Device/CMakeFiles/CiA402Device.dir/DeviceChain.cpp.o.provides
+
+lib/CiA402Device/CMakeFiles/CiA402Device.dir/DeviceChain.cpp.o.provides.build: lib/CiA402Device/CMakeFiles/CiA402Device.dir/DeviceChain.cpp.o
+
+
 lib/CiA402Device/CMakeFiles/CiA402Device.dir/PortBase.cpp.o: lib/CiA402Device/CMakeFiles/CiA402Device.dir/flags.make
 lib/CiA402Device/CMakeFiles/CiA402Device.dir/PortBase.cpp.o: ../lib/CiA402Device/PortBase.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/humanoids/repos/teo-control/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object lib/CiA402Device/CMakeFiles/CiA402Device.dir/PortBase.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/humanoids/repos/teo-control/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object lib/CiA402Device/CMakeFiles/CiA402Device.dir/PortBase.cpp.o"
 	cd /home/humanoids/repos/teo-control/build/lib/CiA402Device && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CiA402Device.dir/PortBase.cpp.o -c /home/humanoids/repos/teo-control/lib/CiA402Device/PortBase.cpp
 
 lib/CiA402Device/CMakeFiles/CiA402Device.dir/PortBase.cpp.i: cmake_force
@@ -179,7 +203,7 @@ lib/CiA402Device/CMakeFiles/CiA402Device.dir/PortBase.cpp.o.provides.build: lib/
 
 lib/CiA402Device/CMakeFiles/CiA402Device.dir/SocketCanPort.cpp.o: lib/CiA402Device/CMakeFiles/CiA402Device.dir/flags.make
 lib/CiA402Device/CMakeFiles/CiA402Device.dir/SocketCanPort.cpp.o: ../lib/CiA402Device/SocketCanPort.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/humanoids/repos/teo-control/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object lib/CiA402Device/CMakeFiles/CiA402Device.dir/SocketCanPort.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/humanoids/repos/teo-control/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object lib/CiA402Device/CMakeFiles/CiA402Device.dir/SocketCanPort.cpp.o"
 	cd /home/humanoids/repos/teo-control/build/lib/CiA402Device && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CiA402Device.dir/SocketCanPort.cpp.o -c /home/humanoids/repos/teo-control/lib/CiA402Device/SocketCanPort.cpp
 
 lib/CiA402Device/CMakeFiles/CiA402Device.dir/SocketCanPort.cpp.i: cmake_force
@@ -203,7 +227,7 @@ lib/CiA402Device/CMakeFiles/CiA402Device.dir/SocketCanPort.cpp.o.provides.build:
 
 lib/CiA402Device/CMakeFiles/CiA402Device.dir/TestPort.cpp.o: lib/CiA402Device/CMakeFiles/CiA402Device.dir/flags.make
 lib/CiA402Device/CMakeFiles/CiA402Device.dir/TestPort.cpp.o: ../lib/CiA402Device/TestPort.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/humanoids/repos/teo-control/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object lib/CiA402Device/CMakeFiles/CiA402Device.dir/TestPort.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/humanoids/repos/teo-control/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object lib/CiA402Device/CMakeFiles/CiA402Device.dir/TestPort.cpp.o"
 	cd /home/humanoids/repos/teo-control/build/lib/CiA402Device && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CiA402Device.dir/TestPort.cpp.o -c /home/humanoids/repos/teo-control/lib/CiA402Device/TestPort.cpp
 
 lib/CiA402Device/CMakeFiles/CiA402Device.dir/TestPort.cpp.i: cmake_force
@@ -231,6 +255,7 @@ CiA402Device_OBJECTS = \
 "CMakeFiles/CiA402Device.dir/CiA301CommPort.cpp.o" \
 "CMakeFiles/CiA402Device.dir/CiA402DeviceICanbus.cpp.o" \
 "CMakeFiles/CiA402Device.dir/Cia402device.cpp.o" \
+"CMakeFiles/CiA402Device.dir/DeviceChain.cpp.o" \
 "CMakeFiles/CiA402Device.dir/PortBase.cpp.o" \
 "CMakeFiles/CiA402Device.dir/SocketCanPort.cpp.o" \
 "CMakeFiles/CiA402Device.dir/TestPort.cpp.o"
@@ -242,12 +267,13 @@ lib/CiA402Device/libCiA402Device.a: lib/CiA402Device/CMakeFiles/CiA402Device.dir
 lib/CiA402Device/libCiA402Device.a: lib/CiA402Device/CMakeFiles/CiA402Device.dir/CiA301CommPort.cpp.o
 lib/CiA402Device/libCiA402Device.a: lib/CiA402Device/CMakeFiles/CiA402Device.dir/CiA402DeviceICanbus.cpp.o
 lib/CiA402Device/libCiA402Device.a: lib/CiA402Device/CMakeFiles/CiA402Device.dir/Cia402device.cpp.o
+lib/CiA402Device/libCiA402Device.a: lib/CiA402Device/CMakeFiles/CiA402Device.dir/DeviceChain.cpp.o
 lib/CiA402Device/libCiA402Device.a: lib/CiA402Device/CMakeFiles/CiA402Device.dir/PortBase.cpp.o
 lib/CiA402Device/libCiA402Device.a: lib/CiA402Device/CMakeFiles/CiA402Device.dir/SocketCanPort.cpp.o
 lib/CiA402Device/libCiA402Device.a: lib/CiA402Device/CMakeFiles/CiA402Device.dir/TestPort.cpp.o
 lib/CiA402Device/libCiA402Device.a: lib/CiA402Device/CMakeFiles/CiA402Device.dir/build.make
 lib/CiA402Device/libCiA402Device.a: lib/CiA402Device/CMakeFiles/CiA402Device.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/humanoids/repos/teo-control/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX static library libCiA402Device.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/humanoids/repos/teo-control/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX static library libCiA402Device.a"
 	cd /home/humanoids/repos/teo-control/build/lib/CiA402Device && $(CMAKE_COMMAND) -P CMakeFiles/CiA402Device.dir/cmake_clean_target.cmake
 	cd /home/humanoids/repos/teo-control/build/lib/CiA402Device && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/CiA402Device.dir/link.txt --verbose=$(VERBOSE)
 
@@ -260,6 +286,7 @@ lib/CiA402Device/CMakeFiles/CiA402Device.dir/requires: lib/CiA402Device/CMakeFil
 lib/CiA402Device/CMakeFiles/CiA402Device.dir/requires: lib/CiA402Device/CMakeFiles/CiA402Device.dir/CiA301CommPort.cpp.o.requires
 lib/CiA402Device/CMakeFiles/CiA402Device.dir/requires: lib/CiA402Device/CMakeFiles/CiA402Device.dir/CiA402DeviceICanbus.cpp.o.requires
 lib/CiA402Device/CMakeFiles/CiA402Device.dir/requires: lib/CiA402Device/CMakeFiles/CiA402Device.dir/Cia402device.cpp.o.requires
+lib/CiA402Device/CMakeFiles/CiA402Device.dir/requires: lib/CiA402Device/CMakeFiles/CiA402Device.dir/DeviceChain.cpp.o.requires
 lib/CiA402Device/CMakeFiles/CiA402Device.dir/requires: lib/CiA402Device/CMakeFiles/CiA402Device.dir/PortBase.cpp.o.requires
 lib/CiA402Device/CMakeFiles/CiA402Device.dir/requires: lib/CiA402Device/CMakeFiles/CiA402Device.dir/SocketCanPort.cpp.o.requires
 lib/CiA402Device/CMakeFiles/CiA402Device.dir/requires: lib/CiA402Device/CMakeFiles/CiA402Device.dir/TestPort.cpp.o.requires

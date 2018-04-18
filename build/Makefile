@@ -124,19 +124,6 @@ main/fast:
 .PHONY : main/fast
 
 #=============================================================================
-# Target rules for targets named Limb
-
-# Build rule for target.
-Limb: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Limb
-.PHONY : Limb
-
-# fast build rule for target.
-Limb/fast:
-	$(MAKE) -f CMakeFiles/Limb.dir/build.make CMakeFiles/Limb.dir/build
-.PHONY : Limb/fast
-
-#=============================================================================
 # Target rules for targets named CiA402Device
 
 # Build rule for target.
@@ -161,33 +148,6 @@ iplot: cmake_check_build_system
 iplot/fast:
 	$(MAKE) -f lib/plot/CMakeFiles/iplot.dir/build.make lib/plot/CMakeFiles/iplot.dir/build
 .PHONY : iplot/fast
-
-src/Limb.o: src/Limb.cpp.o
-
-.PHONY : src/Limb.o
-
-# target to build an object file
-src/Limb.cpp.o:
-	$(MAKE) -f CMakeFiles/Limb.dir/build.make CMakeFiles/Limb.dir/src/Limb.cpp.o
-.PHONY : src/Limb.cpp.o
-
-src/Limb.i: src/Limb.cpp.i
-
-.PHONY : src/Limb.i
-
-# target to preprocess a source file
-src/Limb.cpp.i:
-	$(MAKE) -f CMakeFiles/Limb.dir/build.make CMakeFiles/Limb.dir/src/Limb.cpp.i
-.PHONY : src/Limb.cpp.i
-
-src/Limb.s: src/Limb.cpp.s
-
-.PHONY : src/Limb.s
-
-# target to generate assembly for a file
-src/Limb.cpp.s:
-	$(MAKE) -f CMakeFiles/Limb.dir/build.make CMakeFiles/Limb.dir/src/Limb.cpp.s
-.PHONY : src/Limb.cpp.s
 
 src/main.o: src/main.cpp.o
 
@@ -225,12 +185,8 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... main"
-	@echo "... Limb"
 	@echo "... CiA402Device"
 	@echo "... iplot"
-	@echo "... src/Limb.o"
-	@echo "... src/Limb.i"
-	@echo "... src/Limb.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

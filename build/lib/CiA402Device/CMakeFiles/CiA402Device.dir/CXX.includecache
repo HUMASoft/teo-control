@@ -104,6 +104,16 @@ ObjectDictionary.h
 PortBase.h
 /home/humanoids/repos/teo-control/lib/CiA402Device/PortBase.h
 
+/home/humanoids/repos/teo-control/lib/CiA402Device/DeviceChain.cpp
+DeviceChain.h
+/home/humanoids/repos/teo-control/lib/CiA402Device/DeviceChain.h
+
+/home/humanoids/repos/teo-control/lib/CiA402Device/DeviceChain.h
+Cia402device.h
+/home/humanoids/repos/teo-control/lib/CiA402Device/Cia402device.h
+SocketCanPort.h
+/home/humanoids/repos/teo-control/lib/CiA402Device/SocketCanPort.h
+
 /home/humanoids/repos/teo-control/lib/CiA402Device/ObjectDictionary.h
 vector
 -

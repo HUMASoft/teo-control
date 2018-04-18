@@ -92,6 +92,12 @@
 		<Unit filename="/home/humanoids/repos/teo-control/lib/CiA402Device/Cia402device.h">
 			<Option target="CiA402Device"/>
 		</Unit>
+		<Unit filename="/home/humanoids/repos/teo-control/lib/CiA402Device/DeviceChain.cpp">
+			<Option target="CiA402Device"/>
+		</Unit>
+		<Unit filename="/home/humanoids/repos/teo-control/lib/CiA402Device/DeviceChain.h">
+			<Option target="CiA402Device"/>
+		</Unit>
 		<Unit filename="/home/humanoids/repos/teo-control/lib/CiA402Device/ObjectDictionary.h">
 			<Option target="CiA402Device"/>
 		</Unit>

@@ -233,6 +233,33 @@ Cia402device.cpp.s:
 	cd /home/humanoids/repos/teo-control/build && $(MAKE) -f lib/CiA402Device/CMakeFiles/CiA402Device.dir/build.make lib/CiA402Device/CMakeFiles/CiA402Device.dir/Cia402device.cpp.s
 .PHONY : Cia402device.cpp.s
 
+DeviceChain.o: DeviceChain.cpp.o
+
+.PHONY : DeviceChain.o
+
+# target to build an object file
+DeviceChain.cpp.o:
+	cd /home/humanoids/repos/teo-control/build && $(MAKE) -f lib/CiA402Device/CMakeFiles/CiA402Device.dir/build.make lib/CiA402Device/CMakeFiles/CiA402Device.dir/DeviceChain.cpp.o
+.PHONY : DeviceChain.cpp.o
+
+DeviceChain.i: DeviceChain.cpp.i
+
+.PHONY : DeviceChain.i
+
+# target to preprocess a source file
+DeviceChain.cpp.i:
+	cd /home/humanoids/repos/teo-control/build && $(MAKE) -f lib/CiA402Device/CMakeFiles/CiA402Device.dir/build.make lib/CiA402Device/CMakeFiles/CiA402Device.dir/DeviceChain.cpp.i
+.PHONY : DeviceChain.cpp.i
+
+DeviceChain.s: DeviceChain.cpp.s
+
+.PHONY : DeviceChain.s
+
+# target to generate assembly for a file
+DeviceChain.cpp.s:
+	cd /home/humanoids/repos/teo-control/build && $(MAKE) -f lib/CiA402Device/CMakeFiles/CiA402Device.dir/build.make lib/CiA402Device/CMakeFiles/CiA402Device.dir/DeviceChain.cpp.s
+.PHONY : DeviceChain.cpp.s
+
 PortBase.o: PortBase.cpp.o
 
 .PHONY : PortBase.o
@@ -335,6 +362,9 @@ help:
 	@echo "... Cia402device.o"
 	@echo "... Cia402device.i"
 	@echo "... Cia402device.s"
+	@echo "... DeviceChain.o"
+	@echo "... DeviceChain.i"
+	@echo "... DeviceChain.s"
 	@echo "... PortBase.o"
 	@echo "... PortBase.i"
 	@echo "... PortBase.s"
